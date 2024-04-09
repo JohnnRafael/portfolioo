@@ -1,0 +1,36 @@
+.NavBar{
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.toggle-icon{
+    width: 50px;
+    cursor: pointer;
+    margin-right: 50px;
+} 
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dark .NavBar{
+    background: #313131;
+    color: #fff;
+}
+
