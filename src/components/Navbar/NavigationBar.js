@@ -21,7 +21,7 @@ const NavigationBar = ({theme, setTheme}) => {
             <li>About</li>
             <li>Contact</li>
         </ul>      
-        <img onClick={()=>{toggle_mode()}} src={theme == 'light' ? toggle_light : toggle_dark} alt= "" className='toggle-icon'/>
+        <img onClick={()=>{toggle_mode()}} src={theme === 'light' ? toggle_light : toggle_dark} alt= "" className='toggle-icon'/>
     </div>
   )
 }

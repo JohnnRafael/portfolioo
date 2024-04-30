@@ -39,7 +39,13 @@ function Home() {
                 />
               </div>
             </div>
-            <p style={{ color: theme === 'dark' ? 'white' : 'black', fontSize: '20px', marginTop: '10px',  textIndent: '20px' }}>
+            <p style={{
+              color: theme === 'dark' ? 'white' : 'black',
+              fontSize: '20px',
+              marginTop: '10px',
+              textIndent: '20px',
+              textAlign: 'justify'
+            }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis justo nec ipsum consequat consequat. In sagittis, quam ut fermentum luctus, dui ligula ullamcorper erat, sit amet volutpat purus sapien nec erat. Donec pulvinar sollicitudin augue, nec euismod orci ultricies nec. Sed aliquam lorem quis mauris condimentum, ut ullamcorper quam faucibus.
             </p>
           </div>
