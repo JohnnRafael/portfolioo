@@ -33,7 +33,7 @@ function Home() {
                   options={{
                     strings: positions,
                     autoStart: true,
-                    loop: true,
+                    loop: true, 
                     delay: 100,
                   }}
                 />
