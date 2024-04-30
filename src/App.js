@@ -1,14 +1,7 @@
-// import './App.css';
-
-//Router
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
-
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
-
+// import ParticleBackground from './components/ParticleBackground/ParticleBackground'; // Assuming you have a ParticleBackground component
 
 function App() {
   return (
@@ -16,7 +9,6 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/portfolioo" element={<Home />} />
-          {/* <Route exact path="/*" element={<Error />} /> */}
         </Routes>
       </Router>
     </div>

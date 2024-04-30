@@ -1,8 +1,8 @@
-.home-image {
-    height: 100vh;
-    background-size: cover;
-    /* box-shadow: 0 0 8px 8px #18181B inset; */
-  }
+  .home-image {
+      height: 93vh;
+      background-size: cover;
+      /* box-shadow: 0 0 8px 8px #18181B inset; */
+    }
   
   .home-image-content {
     display: flex;
@@ -26,14 +26,15 @@
   .home-text-name {
     font-size: 50px;
     font-weight: bold;
-  }
+    font-family: "Century Gothic", Arial, sans-serif;
+    }
   
   .home-text-course {
-    font-size: 40px;
-    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    font-family: "Century Gothic", Arial, sans-serif;
     font-weight: bold;
     font-style: italic;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
   }
 
   
