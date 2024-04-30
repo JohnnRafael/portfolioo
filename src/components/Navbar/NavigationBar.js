@@ -16,6 +16,8 @@ const NavigationBar = ({theme, setTheme}) => {
         <img src={theme == 'light' ? logo_light : logo_dark} alt= "" className='logo'/>
         <ul>
             <li>Home</li>
+            <li>Education</li>
+            <li>Experience</li>
             <li>About</li>
             <li>Contact</li>
         </ul>      

@@ -1,0 +1,39 @@
+.home-image {
+    height: 100vh;
+    background-size: cover;
+    /* box-shadow: 0 0 8px 8px #18181B inset; */
+  }
+  
+  .home-image-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 35%;
+    width: 35%;
+    margin-left: 10%;
+    max-height: 70%;
+    height: 70%;
+  }
+  
+  .home-text-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+  }
+  
+  .home-text-name {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .home-text-course {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 3px;
+  }
+
+  

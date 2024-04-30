@@ -1,20 +1,26 @@
-import React, { useEffect, useState } from 'react'
-import NavigationBar from './components/Navbar/NavigationBar'
+// import './App.css';
+
+//Router
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import Home from './components/Home/Home';
+
 
 function App() {
-  const current_theme = localStorage.getItem('current_theme');
-  const [theme, setTheme] = useState(current_theme? current_theme : 'light');
-
-  useEffect(()=>{
-    localStorage.setItem('current_theme', theme)
-  }, [theme])
-
   return (
-    <div className = {`container ${theme}`}>
-      <NavigationBar theme={theme} setTheme={setTheme}/>
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route exact path="/portfolioo" element={<Home />} />
+          {/* <Route exact path="/*" element={<Error />} /> */}
+        </Routes>
+      </Router>
     </div>
-   
-  )
+  );
 }
 
-export default App
+export default App;
